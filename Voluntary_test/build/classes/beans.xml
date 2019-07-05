@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+   <bean id="CollegeDao" class="com.project.dao.impl.CollegeDaoImpl"/>
+   <bean id="UserDao" class="com.project.dao.impl.UserDaoImpl"/>
+   <bean id="CategoryDao" class="com.project.dao.impl.CategoryDaoImpl"/>
+   <bean id="ZyInfoDao" class="com.project.dao.impl.ZyInfoDaoImpl"/>
+   
+   <bean id="CollegeService" class="com.project.service.impl.CollegeServiceImpl"/>
+   <bean id="UserService" class="com.project.service.impl.UserServiceImpl"/>
+   <bean id="CategoryService" class="com.project.service.impl.CategoryServiceImpl"/>
+</beans>
